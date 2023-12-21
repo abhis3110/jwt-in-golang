@@ -22,7 +22,7 @@ func handlePage(writer http.ResponseWriter, request *http.Request) {
 	headers := request.Header
 	//body := request.Body
 
-
+ 
 	// Do something with the request information
 	fmt.Printf("Method: %s\n", method)
 	fmt.Printf("URL: %s\n", url)
